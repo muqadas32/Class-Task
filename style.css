@@ -1,0 +1,196 @@
+#main-navbar a{
+    color: aliceblue;
+    display: inline;
+    text-decoration: none;
+}
+#main-navbar{
+    background-color: rgba(70, 109, 216, 0.719);
+    padding: 20px;
+  text-align: center;
+}
+#main-navbar button{
+    background-color:rgba(70, 109, 216, 0.719);
+    color: white;
+    border-color: white;
+    padding: 10px;
+    margin: 3px;
+  }
+  #navbar center > h1,#navbar center > a{
+     text-align: center;
+  }
+  #sub-navbar{
+    background-color: #120667;
+    padding: 20px;
+     }
+  #sub-navbar a{
+    display: inline;
+    color: white;
+    text-decoration: none;
+    background-color: #120667;
+    padding: 20px;
+  }
+  #main-navbar h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+   
+  }
+  .img{
+    position: static;
+  }
+  .INFORMATION{
+    background-color:  rgb(84, 131, 13);
+    display: flex;
+    margin: 40px 80px 5px 80px;
+    padding: 35px 30px;
+    color: white;
+  }
+  .INFORMATION1{
+    flex: 2;
+    font-size: 55px;
+    padding-left: 12px;
+  }
+  .INFORMATION2{
+    flex: 3;
+    font-size: 21px;
+    padding-top: 5px;
+  }
+.grey-box{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 5px 40px;
+}
+.program-box{
+    color:black;
+    flex: 1;
+   background-color: lightgray;
+   margin: 20px;
+    padding: 5px 40px 90px 40px;
+}
+.program-box-head{
+  color: rgb(105, 105, 231);
+  font-size: 42px;
+}
+.program-box-text {
+  color: black;
+  font-size: 18px;
+  margin-top: -25px;
+}
+.different-box{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 5px 40px;
+}
+.box-head2{
+  flex: 1;
+  color: white;
+  margin: 0 20px;
+  padding: 5px 5px 50px 28px;
+  font-size: 42px;
+}
+.purple{
+background-color: purple;
+}
+.blue{
+  background-color:  rgb(92, 92, 243);
+}
+.event-box{
+  flex: 1;
+    margin: 0 20px;
+    padding: 0 5px 90px 28px;
+}
+.event-box-head{
+  font-weight: bold;
+    font-size: 20px;
+    margin-top: -4px;
+    margin-left: -20px;
+}
+.calender{
+  display: flex;
+  margin-left: -20px;
+}
+.calender-date{
+  flex: 1;
+    color: rgb(110, 172, 40);
+    border: 1px solid silver;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.calender-date p{
+  margin: 0;
+    padding-top: 8px;
+    font-size: 20px;
+}
+.calender-date span{
+  font-size: 38px;
+  padding-bottom: 14px;
+}
+.calender-date-head{
+  flex: 3;
+    color: rgb(101, 101, 255);
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.button{
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 50px;
+}
+.buttons button {
+  flex: 1;
+  margin: 20px 30px;
+  padding: 14px 20px;
+  background-color: white;
+  border: 1px solid blue;
+  border-radius: 4px;
+}
+.buttons button a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(51, 51, 255);
+  font-size: 17px;
+}
+footer {
+  background-color: rgb(62, 62, 62);
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+footer ul {
+  list-style: none;
+}
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  margin-left: -40px;
+}
+.footer-top {
+  display: flex;
+}
+.footer-link-group {
+  flex: 2;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(150px, auto);
+  grid-gap: 10px;
+  margin: 0 auto;
+}
+.footer-sidebar {
+  flex: 1;
+}
+footer hr {
+  margin-top: 50px;
+}
+.footer-end {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
